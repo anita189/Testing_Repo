@@ -35,8 +35,8 @@ type Pins []string
 var gamesList Games
 var connErr bool = false
 
-const clientID string = "1114647533562646700"
-const gamesURL string = "https://raw.githubusercontent.com/Da532/NS-RPC/master/games.json"
+const clientID string = "Ov23liTer9vqSRvuNV1u"
+const gamesURL string = "https://raw.githubusercontent.com/anita189/Testing_Repo/refs/heads/main/games.json"
 
 func NewApp() *App {
 	return &App{}
@@ -199,3 +199,4 @@ func (a *App) GetPins() string {
 func (a *App) IsMac() bool {
 	return runtime.GOOS != "windows"
 }
+
